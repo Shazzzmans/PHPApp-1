@@ -25,7 +25,7 @@ function get_all_data($conn){
         }
         echo '</table>';
     }else{
-        echo "<h3>No records found. Please insert some records</h3>";
+        echo "<p>No records found. Please insert some records</p>";
     }
 }
 ?>
@@ -58,8 +58,8 @@ function get_all_data($conn){
         </div>
         <!-- END OF INSERT DATA SECTION -->
         <hr>
-        <!-- SHOW DATA -->
-        <h2>Show Data</h2>
+        <!-- DISPLAY DATA -->
+        <h2>Display Data</h2>
         <?php 
         // calling get_all_data function
         get_all_data($conn); 
