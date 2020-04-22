@@ -7,12 +7,11 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
     
     if($delete_user){
         echo "<script>
-        alert('Data Deleted');
         window.location.href = 'index.php';
         </script>";
         exit;
     }else{
-       echo "Opps something wrong!"; 
+       echo "Oops something wrong!"; 
     }
 }else{
     // set header response code

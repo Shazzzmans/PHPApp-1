@@ -28,12 +28,11 @@ if(isset($_POST['username']) && isset($_POST['email'])){
                 //CHECK DATA INSERTED OR NOT
                 if($insert_query){
                     echo "<script>
-                    alert('Data inserted');
                     window.location.href = 'index.php';
                     </script>";
                     exit;
                 }else{
-                    echo "<h3>Opps something wrong!</h3>";
+                    echo "<h3>Oops something wrong!</h3>";
                 }
                 
                 

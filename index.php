@@ -42,9 +42,9 @@ function get_all_data($conn){
 <body>
 
     <h1 align="center">Welcome</h1>
-    
+
     <div class="container">
-      
+    
        <!-- INSERT DATA -->
         <div class="form">
             <h2>Insert Data</h2>
@@ -66,6 +66,13 @@ function get_all_data($conn){
         ?>
         <!-- END OF SHOW DATA SECTION -->
     </div>
+
+    <hr>
+
+    <?php
+        echo "Server Name>>>", $_SERVER['SERVER_NAME'], "<br />";
+        echo "Server Private IP>>>", $_SERVER['SERVER_ADDR'], "<br />";
+    ?>
 </body>
 
 </html>

@@ -86,12 +86,11 @@ if(isset($_POST['username']) && isset($_POST['email'])){
                 //CHECK DATA UPDATED OR NOT
                 if($update_query){
                     echo "<script>
-                    alert('Data Updated');
                     window.location.href = 'index.php';
                     </script>";
                     exit;
                 }else{
-                    echo "<h3>Opps something wrong!</h3>";
+                    echo "<h3>Oops something wrong!</h3>";
                 }
            
                 
